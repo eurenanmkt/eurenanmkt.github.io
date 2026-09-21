@@ -172,8 +172,8 @@ h3{font-size:21px;font-weight:600;line-height:1.25}
 
 /* ---------- SOBRE ---------- */
 .about{display:grid;grid-template-columns:.85fr 1.25fr;gap:64px;align-items:start}
-.about-txt p{color:var(--muted);font-size:16px;margin-bottom:20px}
-.about-txt p:first-child{color:var(--text);font-size:19px;font-weight:500}
+.about-txt p{color:var(--muted);font-size:16px;margin-bottom:20px;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+.about-txt p:first-child{color:var(--text);font-size:19px;font-weight:500;text-align:left;hyphens:manual}
 .about-photo{
   width:100%;aspect-ratio:3/4;border-radius:22px;overflow:hidden;
   border:1px solid var(--line);position:relative;
@@ -237,6 +237,7 @@ footer{border-top:1px solid var(--line);padding:48px 0 40px}
   .cards,.fit,.about{grid-template-columns:1fr;gap:22px}
   .plans,.extras{grid-template-columns:1fr;gap:14px}
   .about{gap:36px}
+  .about-txt p{text-align:left}
   .about-photo{max-width:320px}
   .step{grid-template-columns:58px 1fr;gap:18px}
   .step .n{font-size:24px}
@@ -518,7 +519,7 @@ footer{border-top:1px solid var(--line);padding:48px 0 40px}
     <div class="cta-box">
       <div class="kicker">Próximo passo</div>
       <h2>Me manda o @ do seu perfil</h2>
-      <p>Eu gravo um áudio de até um minuto falando o que está travando o seu perfil hoje, de graça. Se fizer sentido para os dois lados, a gente fecha o plano.</p>
+      <p>Eu faço uma análise gratuita do seu perfil e te falo o que está travando ele hoje. Se fizer sentido para os dois lados, a gente fecha o plano.</p>
       <a class="btn btn-p" href="https://wa.me/5567998581214?text=Oi%20Renan%21%20Vim%20pelo%20site%20e%20quero%20saber%20dos%20planos." target="_blank" rel="noopener">Chamar no WhatsApp</a>
       <p class="fine">Costumo responder no mesmo dia.</p>
     </div>
